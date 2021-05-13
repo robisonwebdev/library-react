@@ -1,6 +1,12 @@
+import Footer from "./components/Footer"
+import Header from "./components/Header";
+
 const App = () => {
   return (
-    <div>Library</div>
+    <div>
+      <Header title={'Library'} />
+      <Footer name={'David Robison'} />
+    </div>
   );
 }
 
