@@ -3,7 +3,7 @@ import Library from "./Library";
 
 const Main = (props) => {
     return (
-        <div>
+        <div id='main'>
             <Library />
             <Button name={'Add Book'} />
         </div>
