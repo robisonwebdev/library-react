@@ -1,6 +1,6 @@
 const Button = (props) => {
     return (
-        <button>{props.name}</button>
+        <button id={props.id}>{props.name}</button>
     );
 }
 
