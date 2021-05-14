@@ -6,7 +6,7 @@ const Main = (props) => {
     return (
         <div id='main'>
             <Library />
-            <Button name={'Add Book'} />
+            <Button id={'addBookBtn'} name={'Add Book'} />
         </div>
     );
 }
