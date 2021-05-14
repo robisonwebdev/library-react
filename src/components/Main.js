@@ -1,5 +1,6 @@
 import Button from "./Button"
 import Library from "./Library";
+import '../styles/main.css';
 
 const Main = (props) => {
     return (
