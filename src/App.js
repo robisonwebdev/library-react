@@ -4,7 +4,7 @@ import Main from "./components/Main";
 
 const App = () => {
   return (
-    <div>
+    <div id='App'>
       <Header title={'Library'} />
       <Main />
       <Footer name={'David Robison'} />
