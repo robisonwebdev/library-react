@@ -1,6 +1,10 @@
+import Button from "./Button"
+
 const Main = (props) => {
     return (
-        <div>Test</div>
+        <div>
+            <Button name={'Add Book'} />
+        </div>
     );
 }
 
