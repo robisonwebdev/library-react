@@ -1,7 +1,7 @@
 const Library = (props) => {
     return (
         <div id='library'>
-            <table>
+            <table id='libraryTable'>
                 <thead>
                     <th>Title</th>
                     <th>Author</th>
