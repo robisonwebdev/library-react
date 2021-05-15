@@ -1,6 +1,6 @@
 const Library = (props) => {
     return (
-        <div>
+        <div id='library'>
             <table>
                 <thead>
                     <th>Title</th>
