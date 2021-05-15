@@ -1,3 +1,5 @@
+import BookDetails from "./BookDetails"
+
 const Library = (props) => {
     return (
         <div id='library'>
@@ -9,7 +11,11 @@ const Library = (props) => {
                     <th>Status</th>
                     <th>Del</th>
                 </thead>
-                <tbody></tbody>
+                <tbody>
+                    <td><BookDetails /></td>
+                    <td><BookDetails /></td>
+                    <td><BookDetails /></td>
+                </tbody>
             </table>
         </div>
     );
