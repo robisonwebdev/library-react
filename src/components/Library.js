@@ -5,11 +5,7 @@ const Library = (props) => {
         <div id='library'>
             <table id='libraryTable'>
                 <thead>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>Pages</th>
-                    <th>Status</th>
-                    <th>Del</th>
+                    
                 </thead>
                 <tbody>
                     <td><BookDetails /></td>
