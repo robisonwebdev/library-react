@@ -8,7 +8,7 @@ const App = () => {
     <div id='App'>
       <Header title={'Library'} />
       <Main />
-      <Footer name={'David Robison'} />
+      <Footer address={'https://github.com/robisonwebdev'} name={'David Robison'} />
     </div>
   );
 }
