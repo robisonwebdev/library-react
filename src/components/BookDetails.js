@@ -1,6 +1,8 @@
 const BookDetails = (props) => {
     return (
-        <div>Test Text</div>
+        <div className='bookDetails'>
+
+        </div>
     );
 }
 
