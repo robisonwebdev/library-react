@@ -1,6 +1,6 @@
 const TableHead = () => {
     return (
-        <tr>
+        <tr id='tableHead'>
             <th>Title</th>
             <th>Author</th>
             <th>Pages</th>
