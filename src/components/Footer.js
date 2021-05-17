@@ -1,7 +1,7 @@
 const Footer = (props) => {
     return (
         <div id='footer'>
-            <small>Developed by <a href={props.address} target='_blank'>{props.name}</a></small>
+            <small>Developed by <a href={props.address} target='_blank' rel='noreferrer'>{props.name}</a></small>
         </div>
     );
 }
