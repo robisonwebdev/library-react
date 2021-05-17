@@ -1,16 +1,17 @@
 import BookDetails from "./BookDetails"
+import TableHead from "./TableHead"
 
 const Library = (props) => {
     return (
         <div id='library'>
             <table id='libraryTable'>
                 <thead>
-                    
+                    <TableHead />
                 </thead>
                 <tbody>
-                    <td><BookDetails /></td>
-                    <td><BookDetails /></td>
-                    <td><BookDetails /></td>
+                    <BookDetails />
+                    <BookDetails />
+                    <BookDetails />
                 </tbody>
             </table>
         </div>
