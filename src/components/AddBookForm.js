@@ -5,7 +5,10 @@ const AddBookForm = () => {
         <form id='addBookForm'>
             <h3>New Book</h3>
 
-            <div className='bookFormInputs'></div>
+            <div className='bookFormInputs'>
+                <label for='authorInput'>Author</label>
+                <input type='text' name='authorInput' id='authorInput' placeholder="Enter Author's Name" />
+            </div>
 
             <div className='bookFormInputs'></div>
 
