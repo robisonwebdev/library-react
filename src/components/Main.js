@@ -9,7 +9,7 @@ const Main = (props) => {
     return (
         <div id='main'>
             <Library />
-            <div>
+            <div id='addBook'>
                 <Button id={'addBookBtn'} name={'Add Book'} />
             </div>
         </div>
