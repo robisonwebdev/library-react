@@ -8,14 +8,6 @@ const AddBookForm = () => {
 
             <BookFormInputs label={'Author'} type={'text'} name={'authorInput'} placeholder={"Enter Author's Name"} />
 
-            {/* <div className='bookFormInputs'>
-                <label for='authorInput'>Author</label>
-                <input type='text' name='authorInput' id='authorInput' placeholder="Enter Author's Name" />
-            </div> */}
-
-            <div className='bookFormInputs'></div>
-
-            <div className='bookFormInputs'></div>
         </form>
     );
 }
