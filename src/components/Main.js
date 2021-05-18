@@ -9,7 +9,9 @@ const Main = (props) => {
     return (
         <div id='main'>
             <Library />
-            <Button id={'addBookBtn'} name={'Add Book'} />
+            <div>
+                <Button id={'addBookBtn'} name={'Add Book'} />
+            </div>
         </div>
     );
 }
