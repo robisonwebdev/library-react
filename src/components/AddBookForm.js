@@ -6,7 +6,7 @@ const AddBookForm = () => {
         <form id='addBookForm'>
             <h3>New Book</h3>
 
-            <BookFormInputs type={'text'} name={'authorInput'} placeholder={"Enter Author's Name"} />
+            <BookFormInputs label={'Author'} type={'text'} name={'authorInput'} placeholder={"Enter Author's Name"} />
 
             {/* <div className='bookFormInputs'>
                 <label for='authorInput'>Author</label>
