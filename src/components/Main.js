@@ -11,7 +11,7 @@ const Main = (props) => {
         <div id='main'>
             <Library />
             <div id='addBook'>
-                <Button id={'addBookBtn'} name={'Add Book'} />
+                <Button class={'addBookBtn'} name={'Add Book'} />
                 <AddBookForm />
             </div>
         </div>
