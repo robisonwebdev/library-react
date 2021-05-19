@@ -1,6 +1,6 @@
 const BookFormControls = (props) => {
     return (
-        <div>Test</div>
+        <div className='bookFormControls'></div>
     );
 }
 
