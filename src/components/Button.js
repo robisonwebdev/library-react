@@ -1,6 +1,6 @@
 const Button = (props) => {
     return (
-        <button id={props.id}>{props.name}</button>
+        <button class={props.id}>{props.name}</button>
     );
 }
 
