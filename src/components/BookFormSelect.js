@@ -1,6 +1,8 @@
 const BookFormSelect = (props) => {
     return (
-        <div className='bookFormSelect'></div>
+        <div className='bookFormSelect'>
+            <label htmlFor={props.name}>{props.label}</label>
+        </div>
     );
 }
 
