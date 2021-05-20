@@ -47,3 +47,8 @@
     height: auto;
     width: auto;
 }
+
+.bookFormButtons:hover {
+    background-color: var(--greyDark);
+    text-decoration: underline;
+}
