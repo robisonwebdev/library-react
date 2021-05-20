@@ -1,7 +1,8 @@
 import { useState } from "react";
 
 const BookFormSelect = (props) => {
-    const [selectValue, setSelectValue] = useState('Select One')
+    const [selectValue, setSelectValue] = useState('Select One');
+    
     return (
         <div className='bookFormSelect'>
             <label htmlFor={props.name}>{props.label}</label>
