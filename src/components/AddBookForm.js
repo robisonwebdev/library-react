@@ -5,8 +5,8 @@ import BookFormSelect from './BookFormSelect';
 
 const AddBookForm = () => {
     return (
-        <div>
-            <form id='addBookForm'>
+        <div id='addBookForm'>
+            <form id='bookForm'>
                 <h3>New Book</h3>
 
                 <BookFormInputs label={'Author'} type={'text'} name={'authorInput'} placeholder={"Enter Author's Name"} />
