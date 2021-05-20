@@ -20,3 +20,9 @@
     
     margin: 20px;
 }
+
+.bookFormInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
