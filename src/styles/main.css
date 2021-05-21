@@ -13,6 +13,16 @@
 }
 
 .addBookBtn {
+    cursor: pointer;
+    background-color: var(--grey);
+    border: 1px solid black;
+    border-radius: 3px;
+    color: var(--white);
+    margin: 0 5px;
+    padding: 10px 20px;
+
+    height: auto;
+    width: auto;
     box-shadow: 6px 7px 14px -5px rgba(0,0,0,0.75);
     font-size: 14px;
     margin-right: 15px;
