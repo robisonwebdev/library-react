@@ -1,3 +1,5 @@
+import Button from './Button';
+
 const BookDetails = (props) => {
     return (
         <tr className='bookDetails'>
