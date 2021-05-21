@@ -1,6 +1,6 @@
 const DeleteButton = () => {
     return (
-        <div>DEL</div>
+        <i className='las la-trash' />
     );
 }
 
