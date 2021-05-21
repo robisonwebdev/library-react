@@ -1,4 +1,5 @@
 import Button from './Button';
+import DeleteButton from './DeleteButton';
 
 const BookDetails = (props) => {
     return (
@@ -7,6 +8,7 @@ const BookDetails = (props) => {
             <td>{props.author}</td>
             <td>{props.pages}</td>
             <td><Button className={'bookStatus'} name={props.status} /></td>
+            <td><DeleteButton /></td>
         </tr>
     );
 }
