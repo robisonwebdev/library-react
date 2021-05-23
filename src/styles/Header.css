@@ -1,3 +1,7 @@
 #header {
     margin: 30px auto;
 }
+
+#header h1 {
+    font-size: 3rem;
+}
