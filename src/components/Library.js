@@ -1,5 +1,6 @@
 import BookDetails from "./BookDetails"
 import TableHead from "./TableHead"
+import '../styles/Library.css';
 
 const Library = (props) => {
     return (
