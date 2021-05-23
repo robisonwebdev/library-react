@@ -2,6 +2,11 @@
     width: 100%;
 } */
 
+#libraryTable {
+    border-spacing: 0;
+    width: 100%;
+}
+
 th {
     border-bottom: 1px solid black;
     padding-bottom: 10px;
