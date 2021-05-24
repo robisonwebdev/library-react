@@ -6,15 +6,21 @@ import AddBookForm from "./AddBookForm";
 
 const Main = (props) => {
     const [libraryArray, setLibraryArray] = useState([]);
+    const [showAddBookBtn, setAddBookBtn] = useState(true);
     const [showBookForm, setShowBookForm] = useState(false);
 
-    const handleAddBookBtn = () => setShowBookForm((prevState) => !prevState);
+    ;
+
+    const handleMainEvents = () => {
+        setAddBookBtn((prevState) => !prevState);
+        setShowBookForm((prevState) => !prevState);
+    };
 
     return (
         <div id='main'>
             <Library />
             <div id='addBook'>
-                <Button click={handleAddBookBtn} class={'addBookBtn'} name={'Add Book'} />
+                {showAddBookBtn ? <Button click={handleMainEvents} class={'addBookBtn'} name={'Add Book'} /> : null}
                 {showBookForm ? <AddBookForm /> : null}
             </div>
         </div>
