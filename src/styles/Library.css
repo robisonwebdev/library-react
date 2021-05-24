@@ -15,13 +15,13 @@ th {
 
 .bookStatus {
     cursor: pointer;
-    background-color: var(--grey);
     border: 1px solid black;
-    border-radius: 3px;
-    color: var(--white);
-    margin: 0 5px;
-    padding: 10px 20px;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+}
 
-    height: auto;
-    width: auto;
+.bookStatus:hover {
+    background-color: var(--greyDark);
+    text-decoration: underline;
 }
