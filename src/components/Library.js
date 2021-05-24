@@ -10,9 +10,9 @@ const Library = (props) => {
                     <TableHead />
                 </thead>
                 <tbody>
-                    <BookDetails />
-                    <BookDetails />
-                    <BookDetails />
+                    <BookDetails details={props} />
+                    {/* <BookDetails />
+                    <BookDetails /> */}
                 </tbody>
             </table>
         </div>
