@@ -5,7 +5,13 @@ import { useState } from "react";
 import AddBookForm from "./AddBookForm";
 
 const Main = (props) => {
-    const [libraryArray, setLibraryArray] = useState([]);
+    const [libraryArray, setLibraryArray] = useState([
+        {
+            title: 'Name of the Wind',
+            author: 'Pat Roft',
+            pages: '3442',
+        }
+    ]);
     const [showAddBookBtn, setAddBookBtn] = useState(true);
     const [showBookForm, setShowBookForm] = useState(false);
 
