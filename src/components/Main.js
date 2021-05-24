@@ -9,8 +9,6 @@ const Main = (props) => {
     const [showAddBookBtn, setAddBookBtn] = useState(true);
     const [showBookForm, setShowBookForm] = useState(false);
 
-    ;
-
     const handleMainEvents = () => {
         setAddBookBtn((prevState) => !prevState);
         setShowBookForm((prevState) => !prevState);
@@ -21,7 +19,7 @@ const Main = (props) => {
             <Library />
             <div id='addBook'>
                 {showAddBookBtn ? <Button click={handleMainEvents} class={'addBookBtn'} name={'Add Book'} /> : null}
-                {showBookForm ? <AddBookForm /> : null}
+                {showBookForm ? <AddBookForm click={handleMainEvents} /> : null}
             </div>
         </div>
     );
