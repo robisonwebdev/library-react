@@ -16,7 +16,7 @@ const Main = (props) => {
 
     return (
         <div id='main'>
-            <Library />
+            <Library currentState={libraryArray} />
             <div id='addBook'>
                 {showAddBookBtn ? <Button click={handleMainEvents} class={'addBookBtn'} name={'Add Book'} /> : null}
                 {showBookForm ? <AddBookForm events={handleMainEvents} /> : null}
