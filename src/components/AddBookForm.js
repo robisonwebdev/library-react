@@ -3,7 +3,7 @@ import BookFormControls from './BookFormControls';
 import BookFormInputs from './BookFormInputs';
 import BookFormSelect from './BookFormSelect';
 
-const AddBookForm = () => {
+const AddBookForm = (props) => {
     return (
         <div id='addBookForm'>
             <form id='bookForm'>
