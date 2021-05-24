@@ -19,7 +19,7 @@ const Main = (props) => {
             <Library />
             <div id='addBook'>
                 {showAddBookBtn ? <Button click={handleMainEvents} class={'addBookBtn'} name={'Add Book'} /> : null}
-                {showBookForm ? <AddBookForm click={handleMainEvents} /> : null}
+                {showBookForm ? <AddBookForm events={handleMainEvents} /> : null}
             </div>
         </div>
     );
