@@ -4,10 +4,10 @@ import DeleteButton from './DeleteButton';
 const BookDetails = (props) => {
     return (
         <tr className='bookDetails'>
-            <td>{props.title}</td>
-            <td>{props.author}</td>
-            <td>{props.pages}</td>
-            <td><Button class={'bookStatus'} name={props.status} /></td>
+            <td>{props.details.currentState[0].title}</td>
+            <td>{props.details.currentState[0].author}</td>
+            <td>{props.details.currentState[0].pages}</td>
+            <td><Button class={'bookStatus'} name={null} /></td>
             <td><DeleteButton /></td>
         </tr>
     );
