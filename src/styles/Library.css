@@ -12,3 +12,16 @@ th {
     padding-bottom: 10px;
     text-align: left;
 }
+
+.bookStatus {
+    cursor: pointer;
+    background-color: var(--grey);
+    border: 1px solid black;
+    border-radius: 3px;
+    color: var(--white);
+    margin: 0 5px;
+    padding: 10px 20px;
+
+    height: auto;
+    width: auto;
+}
