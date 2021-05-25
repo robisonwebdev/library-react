@@ -13,7 +13,7 @@ const AddBookForm = (props) => {
                 <BookFormInputs label={'Title'} type={'text'} name={'titleInput'} placeholder={"Enter Book Title"} />
                 <BookFormInputs label={'Pages'} type={'number'} name={'pagesInput'} placeholder={"Number of Pages"} />
                 <BookFormSelect label={'Status:'} name={'readStatus'} />
-                <BookFormControls events={props.events} />
+                <BookFormControls events={props.events} update={props.update} />
             </form>
         </div>
     );
