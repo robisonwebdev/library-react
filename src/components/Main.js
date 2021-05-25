@@ -20,6 +20,20 @@ const Main = (props) => {
         setShowBookForm((prevState) => !prevState);
     };
 
+    const getFormData = () => {
+        const author = document.querySelector('#authorInput');
+        const title = document.querySelector('#titleInput');
+        const pages = document.querySelector('#pagesInput');
+        const status = document.querySelector('#readStatus');
+
+        return {
+            author: author.value,
+            title: title.value,
+            pages: pages.value,
+            status: status.value
+        }
+    }
+
     return (
         <div id='main'>
             <Library currentState={libraryArray} />
