@@ -3,6 +3,7 @@ import TableHead from "./TableHead"
 import '../styles/Library.css';
 
 const Library = (props) => {
+
     return (
         <div id='library'>
             <table id='libraryTable'>
@@ -10,9 +11,11 @@ const Library = (props) => {
                     <TableHead />
                 </thead>
                 <tbody>
-                    <BookDetails details={props} />
-                    {/* <BookDetails />
-                    <BookDetails /> */}
+                    {
+                        props.currentState.map((obj) => (
+                            <BookDetails details={obj} />
+                        ))
+                    }
                 </tbody>
             </table>
         </div>
