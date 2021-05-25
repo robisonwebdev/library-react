@@ -25,7 +25,7 @@ const Main = (props) => {
             <Library currentState={libraryArray} />
             <div id='addBook'>
                 {showAddBookBtn ? <Button click={handleMainEvents} class={'addBookBtn'} name={'Add Book'} /> : null}
-                {showBookForm ? <AddBookForm events={handleMainEvents} /> : null}
+                {showBookForm ? <AddBookForm events={handleMainEvents} update={setLibraryArray} /> : null}
             </div>
         </div>
     );
