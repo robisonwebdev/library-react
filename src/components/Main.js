@@ -1,7 +1,7 @@
 import Button from "./Button"
 import Library from "./Library";
 import '../styles/main.css';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AddBookForm from "./AddBookForm";
 
 const Main = (props) => {
@@ -26,20 +26,28 @@ const Main = (props) => {
         const pages = document.querySelector('#pagesInput');
         const status = document.querySelector('#readStatus');
 
-        return {
+        let newObject = {
             author: author.value,
             title: title.value,
             pages: pages.value,
             status: status.value
         }
+
+        setLibraryArray((prevState) => {
+            return [...prevState, newObject]
+        });
     }
+
+    useEffect(() => {
+        console.log(libraryArray);
+    }, [libraryArray]);
 
     return (
         <div id='main'>
             <Library currentState={libraryArray} />
             <div id='addBook'>
                 {showAddBookBtn ? <Button click={handleMainEvents} class={'addBookBtn'} name={'Add Book'} /> : null}
-                {showBookForm ? <AddBookForm events={handleMainEvents} update={setLibraryArray} /> : null}
+                {showBookForm ? <AddBookForm events={handleMainEvents} update={getFormData} /> : null}
             </div>
         </div>
     );
