@@ -4,9 +4,13 @@ import BookFormInputs from './BookFormInputs';
 import BookFormSelect from './BookFormSelect';
 
 const AddBookForm = (props) => {
+    function onSubmit(e) {
+        e.preventDefault();
+    }
+
     return (
         <div id='addBookForm'>
-            <form id='bookForm' action='#'>
+            <form id='bookForm' onSubmit={onSubmit}>
                 <h3>New Book</h3>
 
                 <BookFormInputs label={'Author'} type={'text'} name={'authorInput'} placeholder={"Enter Author's Name"} />
